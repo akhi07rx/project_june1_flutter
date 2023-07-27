@@ -16,7 +16,11 @@ class Splash2 extends StatelessWidget {
           // size: 80,
           // color: Colors.purple,),
 
-          Image.asset("assets/icons/icon.png"),
+          Image.asset(
+            "assets/icons/icon.png",
+            height: 200,
+            width: 200,
+          ),
           const Text(
             "My Application",
             style: TextStyle(
